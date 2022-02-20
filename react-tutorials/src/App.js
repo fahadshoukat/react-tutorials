@@ -1,6 +1,7 @@
 import "./App.css";
 import Greet from "./components/Greet";
 import { Greet1 } from './components/Greet';
+import Welcome from "./components/Welcome";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <h1>React Tutorials</h1>
       <Greet />
       <Greet1 />
+      <Welcome />
     </div>
   );
 }

@@ -9,11 +9,13 @@ function App() {
     <div className="App">
       <h1>React Tutorials</h1>
       {/* <Greet />
-      <Greet1 />
-      <Welcome /> */}
-      <Hello name="Sufyan" heroname="footballer" />
+      <Greet1 /> */}
+      <Welcome name="Sufyan" heroname="footballer" />
+      <Welcome name="Sufyan" heroname="footballer" />
+      <Welcome name="Sufyan" heroname="footballer" />
+      {/* <Hello name="Sufyan" heroname="footballer" />
       <Hello name="Ali" heroname="badmenten" />
-      <Hello name="Muaz" heroname="cricketer" />
+      <Hello name="Muaz" heroname="cricketer" /> */}
     </div>
   );
 }

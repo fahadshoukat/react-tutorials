@@ -10,8 +10,12 @@ function App() {
       <h1>React Tutorials</h1>
       {/* <Greet />
       <Greet1 /> */}
-      <Welcome name="Sufyan" heroname="footballer" />
-      <Welcome name="Sufyan" heroname="footballer" />
+      <Welcome name="Sufyan" heroname="footballer">
+        <p>this is children props</p>
+      </Welcome>
+      <Welcome name="Sufyan" heroname="footballer">
+        <button>Click</button>
+      </Welcome>
       <Welcome name="Sufyan" heroname="footballer" />
       {/* <Hello name="Sufyan" heroname="footballer" />
       <Hello name="Ali" heroname="badmenten" />

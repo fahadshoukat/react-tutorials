@@ -11,7 +11,9 @@ function App() {
       {/* <Greet />
       <Greet1 />
       <Welcome /> */}
-      <Hello />
+      <Hello name="Sufyan" heroname="footballer" />
+      <Hello name="Ali" heroname="badmenten" />
+      <Hello name="Muaz" heroname="cricketer" />
     </div>
   );
 }

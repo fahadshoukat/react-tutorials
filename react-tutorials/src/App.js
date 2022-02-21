@@ -19,8 +19,8 @@ function App() {
       </Welcome>
       <Welcome name="Sufyan" heroname="footballer">
         <button>Click</button>
-      </Welcome>
-      <Welcome name="Sufyan" heroname="footballer" /> */}
+      </Welcome> */}
+      <Welcome name="Ali" heroname="badmenten" />
       <Hello name="Sufyan" heroname="footballer" />
       {/* <Hello name="Ali" heroname="badmenten" />
       <Hello name="Muaz" heroname="cricketer" /> */}

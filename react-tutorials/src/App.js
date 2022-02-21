@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <h1>React Tutorials</h1>
-      <Counter />
+      {/* <Counter /> */}
       {/* <Message /> */}
       {/* <Greet />
       <Greet1 /> */}
@@ -21,8 +21,8 @@ function App() {
         <button>Click</button>
       </Welcome>
       <Welcome name="Sufyan" heroname="footballer" /> */}
-      {/* <Hello name="Sufyan" heroname="footballer" />
-      <Hello name="Ali" heroname="badmenten" />
+      <Hello name="Sufyan" heroname="footballer" />
+      {/* <Hello name="Ali" heroname="badmenten" />
       <Hello name="Muaz" heroname="cricketer" /> */}
     </div>
   );

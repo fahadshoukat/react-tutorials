@@ -7,13 +7,15 @@ import Message from "./components/Message";
 import Counter from "./components/Counter";
 import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
+import EventBind from "./components/EventBind";
 
 function App() {
   return (
     <div className="App">
       <h1>React Tutorials</h1>
-      <FunctionClick />
-      <ClassClick />
+      <EventBind />
+      {/* <FunctionClick /> */}
+      {/* <ClassClick /> */}
       {/* <Counter /> */}
       {/* <Message /> */}
       {/* <Greet />

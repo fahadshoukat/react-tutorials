@@ -5,11 +5,13 @@ import Welcome from "./components/Welcome";
 import Hello from "./components/Hello";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
+import FunctionClick from "./components/FunctionClick";
 
 function App() {
   return (
     <div className="App">
       <h1>React Tutorials</h1>
+      <FunctionClick />
       {/* <Counter /> */}
       {/* <Message /> */}
       {/* <Greet />
@@ -20,8 +22,8 @@ function App() {
       <Welcome name="Sufyan" heroname="footballer">
         <button>Click</button>
       </Welcome> */}
-      <Welcome name="Ali" heroname="badmenten" />
-      <Hello name="Sufyan" heroname="footballer" />
+      {/* <Welcome name="Ali" heroname="badmenten" /> */}
+      {/* <Hello name="Sufyan" heroname="footballer" /> */}
       {/* <Hello name="Ali" heroname="badmenten" />
       <Hello name="Muaz" heroname="cricketer" /> */}
     </div>

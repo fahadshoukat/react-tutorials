@@ -5,7 +5,7 @@ class UserGreeting extends Component {
     super(props);
 
     this.state = {
-      isLoggedIn: true,
+      isLoggedIn: false,
     };
   }
 
@@ -30,11 +30,16 @@ class UserGreeting extends Component {
 
     // ternary operator approach
 
-    return this.state.isLoggedIn ? (
-      <div>Welcome Fahad</div>
-    ) : (
-      <div>Welcome Guest</div>
-    );
+    // return this.state.isLoggedIn ? (
+    //   <div>Welcome Fahad</div>
+    // ) : (
+    //   <div>Welcome Guest</div>
+    // );
+
+    // short circuit operator approach
+
+    return this.state.isLoggedIn && <div>Welcome Fahad</div>
+
 
     // return (
     //   <div>

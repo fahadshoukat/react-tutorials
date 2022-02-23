@@ -5,7 +5,7 @@ class UserGreeting extends Component {
     super(props);
 
     this.state = {
-      isLoggedIn: false,
+      isLoggedIn: true,
     };
   }
 
@@ -20,13 +20,21 @@ class UserGreeting extends Component {
 
     // element variable approach
 
-    let message;
+    // let message;
 
-    if (this.state.isLoggedIn) {
-      return (message = <div>Welcome Fahad</div>);
-    } else {
-      return (message = <div>Welcome Guest</div>);
-    }
+    // if (this.state.isLoggedIn) {
+    //   return (message = <div>Welcome Fahad</div>);
+    // } else {
+    //   return (message = <div>Welcome Guest</div>);
+    // }
+
+    // ternary operator approach
+
+    return this.state.isLoggedIn ? (
+      <div>Welcome Fahad</div>
+    ) : (
+      <div>Welcome Guest</div>
+    );
 
     // return (
     //   <div>

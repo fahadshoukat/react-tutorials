@@ -13,8 +13,8 @@ class ParentComponent extends Component {
       this.helloParent = this.helloParent.bind(this)
     }
 
-    helloParent(){
-        alert(`Hello ${this.state.parentName}`)
+    helloParent(childName){
+        alert(`Hello ${this.state.parentName} from ${childName}`)
     }
 
   render() {

@@ -16,12 +16,16 @@ import Inline from "./components/Inline";
 import Form from "./components/Form";
 import './appStyle.css'
 import styles from './appStyle.module.css'
+import FragmentDemo from "./components/FragmentDemo";
+import Table from "./components/Table";
 
 function App() {
   return (
     <div className="App">
       <h1>React Tutorials</h1>
-      <Form />
+      <Table />
+      {/* <FragmentDemo /> */}
+      {/* <Form /> */}
       {/* <h1 className="error">Error</h1>
       <h1 className={styles.success}>Success</h1> */}
       {/* <Inline /> */}

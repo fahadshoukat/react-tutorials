@@ -2,7 +2,8 @@ import React from 'react'
 
 function Columns() {
   return (
-    <React.Fragment> //you can also use short syntax of react fragment like (<></>)
+    //you can also use short syntax of react fragment like (<></>)
+    <React.Fragment> 
         <td>Name</td>
         <td>City</td>
     </React.Fragment>
